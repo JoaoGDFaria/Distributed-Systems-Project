@@ -1,0 +1,97 @@
+
+Client :
+
+    />Function:
+        
+        - An instance is created once this file is executed in a terminal.
+        - It connect with the server.
+        - And creates an instance of the middleware.
+        - Then passes an instace of his own class to the class that creates the menus
+
+
+    />Taks to do:    
+
+        - Threaded client
+        - Functions to handle the client requests
+        -/- Maybe create a class to hadle cliente commands???
+
+ClientMenus  :
+
+    />Function:
+        
+        - Displays the menus of the client side
+
+
+    />Taks to do:    
+
+        - Functions do not send or receive data
+
+
+CommandClient  :
+
+    />Function:
+        
+        - Serielizes e desirializes client messages.
+
+
+    />Taks to do:    
+
+        - Turn this into a class to encapsulate both client and server messages????
+
+CommandServer :
+
+    />Function:
+        
+        - Serielizes e desirializes server messages.
+
+
+    />Taks to do:    
+
+        - Turn this into a class to encapsulate both client and server messages????
+
+HandlerServer  :
+
+    />Function:
+        
+        - Handles the client request
+
+    />Taks to do:    
+
+        -
+
+
+Server  :
+
+    />Function:
+        
+        - Inits the connections with the clients and provides data from connections
+
+
+    />Taks to do:    
+
+        -
+
+
+ServerData  :
+
+    />Function:
+        
+        - Metadata drom clients
+
+
+    />Taks to do:    
+
+        -
+
+
+TaggedConnection  : 
+
+    />Function:
+        
+        - Handles the sending and receiving of messages using sockets
+        - Aka middleware
+
+
+    />Taks to do:    
+
+        -
