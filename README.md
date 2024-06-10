@@ -2,4 +2,4 @@
 
 Project developed with special care in controlling competition and mutual exclusion in server-client communication
 
-Final grade: 17/20
+Final grade: 16/20
